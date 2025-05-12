@@ -92,3 +92,72 @@ img {
     rgba(255, 255, 255, 0.8), rgba(235, 240, 240, 0.5)), 
     url(../images/photo_3.jpg) 50% 70% no-repeat;
 }
+
+.cont_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.span_color {
+    color: blue;
+}
+
+/*------------------------ about */
+
+.cont_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* -------------------container_services */
+
+.container_services {
+    padding: 120px 0px 0px 0px;
+}
+
+.title_main {
+    font-size: 35px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 700;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.title_main::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    left: center;
+    bottom: 0;
+    background-color: blue;
+
+
+}
+
+.cont_servise {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------------------- cont_advantages */
+
+.container_advantages {
+    padding: 120px 0px 120px 0px;
+}
+
+.cont_advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
