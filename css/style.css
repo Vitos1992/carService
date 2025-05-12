@@ -84,6 +84,7 @@ img {
 
 
 .items {
+    background-color: #efefef;
     margin-bottom: 60px;
     height: auto;
     width: 100%;
@@ -105,6 +106,10 @@ img {
 
 /*------------------------ about */
 
+.about {
+    padding: 60px 0px 60px 0px;
+}
+
 .cont_about {
     display: flex;
     align-items: center;
@@ -115,7 +120,8 @@ img {
 /* -------------------container_services */
 
 .container_services {
-    padding: 120px 0px 0px 0px;
+    padding: 60px 0px 60px 0px;
+    background-color: #efefef;
 }
 
 .title_main {
@@ -123,7 +129,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    font-size: 700;
+    font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 70px;
     position: relative;
@@ -144,15 +150,38 @@ img {
 
 .cont_servise {
     display: flex;
-    gap: 25px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
+}
+
+.list_service {
+    width: 320px;
+    height: 380px;
+}
+
+.cont_servise_img {
+    width: 320px;
+    height: 220px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 2px solid #434455;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_service {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 22px;
 }
 
 /*--------------------- cont_advantages */
 
 .container_advantages {
-    padding: 120px 0px 120px 0px;
+    padding: 60px 0px 60px 0px;
 }
 
 .cont_advantages {
