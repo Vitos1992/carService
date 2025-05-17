@@ -7,6 +7,8 @@ const swiper = new Swiper('.swiper', {
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
+        dynamicBullets: true,
+        // type: 'fraction',
     },
 
     // Navigation arrows
@@ -16,7 +18,25 @@ const swiper = new Swiper('.swiper', {
     },
 
     // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
+    // scrollbar: {
+    //     el: '.swiper-scrollbar',
+    // },
+
+    touchRation: 1,
+
+    grabCursor: true,
+
+    keyboard: {
+        enable: true,
+        onlyInViewport: true,
+        pageUpDown: true,
     },
+
+    mousewheel: {
+        sensitivity: 1,
+    },
+
+    avtoHeight: true,
+    slidesPerView: 3,
+
 });

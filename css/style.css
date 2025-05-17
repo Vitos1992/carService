@@ -153,15 +153,20 @@ img {
 /* slider */
 
 .swiper {
+    width: 600px;
+    height: 300px;
     padding: 30px 0px 60px 0px;
 }
 
-.swiper-wrapper {
-    padding: 30px 0px 60px 0px;
+.image-slider__slide {
+    padding: 20px;
+}
+
+.image-slider__image {
     text-align: center;
 }
 
-.swiper-slide img {
+.image-slider__image img {
     max-width: 100%;
 }
 
@@ -169,6 +174,14 @@ img {
 .swiper-button-next::after {
     color: #434455;
     font-size: 40px;
+}
+
+.image-slider .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    font-size: 10px;
+    background-color: #434455;
 }
 /* -------------------container_services */
 
