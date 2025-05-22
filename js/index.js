@@ -2,7 +2,9 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
     slidesPerView: 3,
-    spaseBetween: 30,
+    spaseBetween: 60,
+
+    
 
     // If we need pagination
     pagination: {
@@ -18,20 +20,17 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
 
-    // And if we need scrollbar
-    // scrollbar: {
-    //     el: '.swiper-scrollbar',
+
+
+    // touchRation: 1,
+
+    // grabCursor: true,
+
+    // keyboard: {
+    //     enable: true,
+    //     onlyInViewport: true,
+    //     pageUpDown: true,
     // },
-
-    touchRation: 1,
-
-    grabCursor: true,
-
-    keyboard: {
-        enable: true,
-        onlyInViewport: true,
-        pageUpDown: true,
-    },
 
     mousewheel: {
         sensitivity: 1,
@@ -39,4 +38,13 @@ const swiper = new Swiper('.swiper', {
 
     avtoHeight: true,
 
+    effect: 'coverflow',
+
+    coverflowEffect: {
+        rotate: 20,
+        stretch: 50,
+        sliderShadows: true,
+    }
+
 });
+
