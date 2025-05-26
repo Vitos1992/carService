@@ -450,7 +450,7 @@ img {
 }
 
 .btn_find {
-    width: 160px;
+    width: 240px;
     border-radius: 4px;
     border: 1px solid transparent;
     min-height: 40px;
@@ -475,7 +475,7 @@ img {
     letter-spacing: 0.04em;
     color: #fff;
     text-decoration: none;
-    padding: 8px 24px;
+    padding: 8px 54px;
 }
 
 .btn_find:hover {
@@ -505,6 +505,7 @@ img {
 
 .phone_find {
     color: black;
+    font-size: 20px;
     text-decoration: none;
     border-radius: 4px;
     transition: 0.5s;
