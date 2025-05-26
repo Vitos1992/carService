@@ -53,6 +53,7 @@ img {
 /* -------------header----------------- */
 
 .header {
+    background-color: #fff;
     padding: 15px 0px 15px 0px;
     border-bottom: 2px solid #6b6b6b;
 }
@@ -76,7 +77,7 @@ img {
     width: 180px;
     cursor: pointer;
     border-radius: 20px;
-    border: 2px solid #fcf00d;
+    border: 2px solid #4d5ae5;
 }
 
 .list_nav {
@@ -106,12 +107,15 @@ img {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    border: 2px solid #fcf00d;
+    border: 2px solid #4d5ae5;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .tel_head:hover {
-    background-color: #434455;
+    background-color: #404BBF;
+    box-shadow: 0 0 0 4px #fff,
+        0 0 0 8px #404BBF;
 
 }
 
@@ -123,6 +127,7 @@ img {
 
 .phone:hover {
     color: #fff;
+    
 }
 
 /* ----------------main */
@@ -183,6 +188,15 @@ img {
     margin-bottom: 40px;
 }
 
+.text__about p {
+    color: #1d1e36;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
 /* slider */
 
 .swiper {
@@ -267,16 +281,16 @@ img {
     text-transform: capitalize;
     margin-bottom: 70px;
     position: relative;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 
-    background: linear-gradient(45deg, #fd0000, rgb(255, 0, 255), aqua);
+    background: linear-gradient(45deg, #4d5ae5, rgb(111, 29, 178), rgb(17, 52, 52));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 
     filter: drop-shadow(0px 0px 12px grey);
 }
 
-.title_main::after {
+/* .title_main::after {
     content: '';
     position: absolute;
     width: 100px;
@@ -286,7 +300,7 @@ img {
     background-color: #fcf00d;
 
 
-}
+} */
 
 .cont_servise {
     display: flex;
@@ -306,7 +320,7 @@ img {
     height: 220px;
     background-color: #f4f4fd;
     border-radius: 4px;
-    border: 2px solid #fcf00d;
+    border: 2px solid #4d5ae5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -382,7 +396,7 @@ img {
 
 .arm {
     padding: 30px 0px 60px 0px;
-    background-color: #efefef;
+    background-color: #f4f4fd;
 }
 
 .wrap_arm {
@@ -406,7 +420,7 @@ img {
 
 /*----------------- find */
 .find {
-    padding: 30px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
 
 }
 
@@ -424,7 +438,94 @@ img {
     align-items: flex-start;
 }
 
-.tetx__find1 {}
+.box__contfind {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.box__contfind :nth-child {
+    margin-bottom: 0px;
+
+}
+
+.btn_find {
+    width: 160px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    min-height: 40px;
+    transition: background-color 250ms linear;
+    background-color: #4d5ae5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn__map {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn__map a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 24px;
+}
+
+.btn_find:hover {
+    background-color: #404BBF;
+    box-shadow: 0 0 0 4px #fff,
+        0 0 0 8px #404BBF;
+}
+
+.btn__map svg {
+    fill: #fff;
+}
+
+.find__svg svg {
+    fill: #4d5ae5;
+}
+
+.find__nav p {
+    font-family: "Montserrat";
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+
+}
+
+.phone_find {
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.5s;
+    
+
+}
+
+.phone_find:hover {
+    box-shadow: 0 0 0 4px #fff,
+        0 0 0 8px #404BBF;
+}
+
+.text__find1 {
+    font-family: "Montserrat";
+    color: #434455;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
 
 /*---------------------- footer */
 
