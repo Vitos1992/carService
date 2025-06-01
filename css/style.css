@@ -103,9 +103,20 @@ img {
     color: black;
     font-size: 16px;
     font-weight: 500;
+    padding: 20px 0px 20px 0px;
 
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s linear;
 }
+
+.nav_item:hover,
+.nav_item:focus {
+    color: #4d5ae5;
+    border-bottom: 4px solid #4d5ae5; 
+    filter: drop-shadow(0px 0px 12px #4d5a4d);
+
+} 
 
 .address_head {
     display: flex;
@@ -179,13 +190,14 @@ img {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
+    color: #414141;
 
     filter: drop-shadow(0px 0px 12px grey);
 }
 
 .span_color {
-    color: blue;
-    font-size: 34px;
+    color: #4d5ae5;
+    font-size: 32px;
     font-weight: 700;
 
     filter: drop-shadow(0px 0px 12px grey);
@@ -240,11 +252,11 @@ img {
 }
 
 .slider .slick-arrow.slick-prev {
-    background-image: url('../images/cheveron.svg#icon-cheveron-left') 0 0 / 100% no-repeat;
+    /* background-image: url('../images/chevron-thin-left.svg#icomoon-ignore') 0 0 / 100% no-repeat; */
     left: 0;
 }
 .slider .slick-arrow.slick-next {
-    background-image: url('../images/cheveron.svg#icon-cheveron-right') 0 0 / 100% no-repeat;
+    /* background-image: url('../images/chevron-thin-right.svg#icomoon-ignore') 0 0 / 100% no-repeat; */
     right: 0;
 }
 
@@ -409,6 +421,7 @@ img {
 
 .container_advantages {
     padding: 30px 0px 60px 0px;
+    
 }
 
 .cont_advantages {
@@ -458,6 +471,7 @@ img {
 /*----------------- find */
 .find {
     padding: 60px 0px 60px 0px;
+    background-color: #f4f4fd;
 
 }
 
@@ -584,6 +598,22 @@ img {
     align-items: center;
     justify-content: space-between;
 }
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+
+
+}
+
 
 .footer_wrap {
     display: flex;
