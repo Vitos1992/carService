@@ -196,7 +196,10 @@ img {
 }
 
 .span_color {
-    color: #4d5ae5;
+    background: linear-gradient(45deg, #4d5ae5, rgb(111, 29, 178), rgb(17, 52, 52));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     font-size: 32px;
     font-weight: 700;
 
@@ -216,6 +219,7 @@ img {
     gap: 20px;
     margin-bottom: 40px;
 }
+
 
 .text__about p {
     color: #040409;
@@ -610,6 +614,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.05em;
+    margin-bottom: 25px;
 
 
 }
@@ -650,6 +655,7 @@ img {
 
 .list_footer_item {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
