@@ -14,6 +14,26 @@ $(document).ready(function(){
     pauseOnFocusHoverDots: true,
     draggable: false,
     waitForAnimate: false,
+    responsive:[
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 1158,
+        settings: {
+          slidesToShow: 5
+        }
+      }
+    ]
   });
 });
   

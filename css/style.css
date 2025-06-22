@@ -37,7 +37,7 @@ img {
 }
 
 .container {
-    width: 1170px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -67,9 +67,6 @@ img {
 .head_box {
     display: flex;
     justify-content: space-around;
-    
-    
-
 }
 
 .nav_header {
@@ -161,7 +158,7 @@ img {
 
 
 .items {
-    padding-top: 100px;
+    padding-top: 110px;
     background-color: #efefef;
     margin-bottom: 60px;
     height: auto;
@@ -640,7 +637,7 @@ img {
 }
 
 .wrap__box svg {
-    fill: #15e90d;
+    fill: #f6ff00;
 }
 
 .wrap__box p {

@@ -1,0 +1,161 @@
+@media screen and (min-width: 320px) {
+
+    .container {
+        min-width: 320px;
+        padding: 0;
+        margin: auto;
+    }
+
+    /* header */
+
+    .header {
+
+    }
+
+    .list_nav {
+        display: none;
+    }
+
+    .address_list {
+        display: none;
+    }
+
+    /* main */
+    /* items */
+
+    .items {
+
+    }
+
+    .img__item {
+        display: none;
+    }
+
+    .box_name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titile_name {
+        font-size: 24px;
+    }
+    .span_color {
+        font-size: 24px;
+    }
+
+    /* about */
+
+    .cont_about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text__about p {
+        font-size: 12px;
+    }
+
+    /* slider */
+
+    .slider {
+        display: none;
+    }
+
+    /* blok */
+
+    .blok {
+        display: none;
+    }
+
+    /* container_services */
+
+    .title_main {
+        font-size: 24px;
+    }
+
+    .title_main::after {
+        width: 80px;
+    }
+
+    .cont_servise {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* cont_advantages */
+
+    .cont_advantages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* find */
+
+    .box_find {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cont_find {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* footer */
+
+    .cont__footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+}
+
+
+/* table */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        min-width: 768px;
+        padding: 0;
+        margin: auto;
+    }
+
+    /* header */
+
+    
+    
+}
+
+/* desctop */
+
+@media screen and (min-width: 1158px) {
+
+    .container {
+        min-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+
+    /* header */
+    
+}
