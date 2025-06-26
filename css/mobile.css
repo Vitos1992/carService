@@ -10,19 +10,85 @@
 
     .head_box {
         display: flex;
+        
+    }
+
+    /* .burger__menu {
+        display: flex;
+        align-items: center;
+    } */
+
+    .burger_btn {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: #404BBF;
+        border-radius: 5px;
+        z-index: 2;
+    }
+
+    .burger_btn span {
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background-color: #f6ff00;
+        left: 5px;
+    }
+
+    .burger_btn span:nth-child(1) {
+        transform: translateY(-10px);
+    }
+
+    .burger_btn span:nth-child(3) {
+        transform: translateY(10px);
+    }
+
+    .burger_menu {
+        display: flex;
         justify-content: space-around;
+        gap: 20px;
     }
 
     .logo_head {
         width: 90px;
     }
 
+    .nav_header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #404BBF;
+        padding: 100px 20px 20px 20px; 
+
+    }
+
+    .list_item {
+        padding: 10px 0px;
+    }
+
+    .nav_item {
+        color: #f6ff00;
+        font-size: 16px;
+        padding: 25px 0px;
+    }
+
     .list_nav {
-        display: none;
+        display: block;
+    
+    }
+
+    .address_head {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #404BBF;
+        padding: 100px 20px 20px 20px; 
     }
 
     .address_list {
         display: none;
+        
     }
 
     /* main */
@@ -258,6 +324,11 @@
     }
 
     /* header */
+
+    .burger_btn {
+        display: none;
+
+    }
 
     
     
