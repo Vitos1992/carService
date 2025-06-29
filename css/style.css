@@ -281,7 +281,7 @@ img {
 }
 
 .slider .slick-dots li.slick-active button {
-    background-color: #000453;
+    background-color: #f6ff00;
     border: 1px solid #fff;
 }
 
@@ -306,16 +306,12 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #000453;
+    background-color: #404BBF;
 }
 
 .text__blok {
     font-size: 24px;
     color: #fff;
-}
-
-.blok__img {
-    fill: #fcf00d;
 }
 
 .text__blok1 {
@@ -403,7 +399,7 @@ img {
 .box_service_text {
     width: 320px;
     height: 150px;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 50px 0px;
     border: 1px solid #E7E9FC;
     border-top: none;
     border-radius: 0px 0px 4px 4px;
@@ -612,7 +608,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.05em;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 
 
 }

@@ -252,6 +252,7 @@
     .footer__logo p {
         font-size: 20px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .footer_wrap {
@@ -381,18 +382,18 @@
     /*----------------------- about */
 
     .cont_about img {
-        max-width: 300px;
+        max-width: 550px;
     }
 
     .cont_about {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .text__about {
-        max-width: 300px;
+        max-width: 400px;
     }
 
     .text__about p {
@@ -402,13 +403,19 @@
     /*--------------------- slider */
 
     .slider {
-        display: none;
+        display: block;
     }
 
     /*------------------------ blok */
 
     .blok {
-        display: none;
+        display: flex;
+    }
+
+    .text__blok,
+    .text__blok1 {
+        color: #f6ff00;
+        font-weight: 700;
     }
 
     /* ---------------container_services */
@@ -423,13 +430,13 @@
 
     .cont_servise {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
 
     .cont_servise_img {
-        max-width: 300px;
+        max-width: 280px;
     }
 
     .title_service {
@@ -440,7 +447,7 @@
     }
 
     .box_service_text {
-        max-width: 300px;
+        max-width: 280px;
         height: 100px;
         background-color: #fff;
     }
@@ -457,40 +464,40 @@
 
     .cont_advantages {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         gap:  5px;
     }
 
     .advantages__list {
-        max-width: 320px;
+        max-width: 400px;
     }
 
     .advantages__list img {
-        max-width: 300px;
-        max-height: 200px;
+        max-width: 400px;
+        max-height: 250px;
     }
 
     .title__adv {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .advantages__list p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     /*------------------------------ find */
 
     .box_find {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
 
     .cont_find {
-        width: 100%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -510,17 +517,26 @@
     }
 
     .iframe {
-        max-width: 300px;
-        max-height: 200px;
+        max-width: 550px;
+        max-height: 450px;
     }
 
     /* ----------------------footer */
 
     .cont__footer {
         display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .soc_nav_foot {
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 30px;
     }
 
     .footer__logo {
@@ -530,10 +546,11 @@
     .footer__logo p {
         font-size: 20px;
         text-align: center;
+        margin-bottom: 30px;
     }
 
     .footer_wrap {
-        width: 300px;
+        width: 540px;
     }
 
     .footer_logo-class {
@@ -545,7 +562,7 @@
     }
 
     .footer_box {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
 
     .title_footer {
@@ -561,6 +578,9 @@
         flex-direction: row;
     }
 
+    .list_footer {
+        text-align: center;
+    }
 
 
 

@@ -18,19 +18,19 @@ $(document).ready(function(){
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
         }
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3
+          slidesToShow: 3,
         }
       },
       {
         breakpoint: 1158,
         settings: {
-          slidesToShow: 5
+          slidesToShow: 5,
         }
       }
     ]
