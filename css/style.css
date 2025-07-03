@@ -522,7 +522,7 @@ img {
 
 .btn__map a {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
@@ -536,8 +536,16 @@ img {
         0 0 0 8px #404BBF;
 }
 
+.btn__map:hover a {
+    color: #f6ff00;
+}
+
 .btn__map svg {
     fill: #fff;
+}
+
+.btn__map:hover svg {
+    fill: #f6ff00;
 }
 
 .find__svg svg {
@@ -574,7 +582,7 @@ img {
 .phone_find:hover {
     box-shadow: 0 0 0 4px #fff,
         0 0 0 8px #404BBF;
-    color: #404BBF;
+    color: #cfb702;
 }
 
 .text__find1 {
@@ -611,7 +619,6 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.05em;
-    /* margin-bottom: 25px; */
 
 
 }
@@ -658,6 +665,7 @@ img {
 }
 
 .list_footer {
+    text-align: center;
     width: 50px;
     height: 50px;
 }
