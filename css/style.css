@@ -257,11 +257,11 @@ img {
 }
 
 .slider .slick-arrow.slick-prev {
-    /* background-image: url('../images/chevron-thin-left.svg#icomoon-ignore') 0 0 / 100% no-repeat; */
+    background-image: url('../images/chevron-thin-left.svg#icomoon-ignore');
     left: 0;
 }
 .slider .slick-arrow.slick-next {
-    /* background-image: url('../images/chevron-thin-right.svg#icomoon-ignore') 0 0 / 100% no-repeat; */
+    background-image: url('../images/chevron-thin-right.svg#icomoon-ignore') 0 0 / 100% no-repeat;
     right: 0;
 }
 
@@ -377,7 +377,6 @@ img {
 }
 
 .list_service {
-    /* background-color: #fff; */
     width: 320px;
     
 }

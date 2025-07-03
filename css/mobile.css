@@ -811,6 +811,8 @@
         font-size: 20px;
     }
 
+    
+
     .find__nav {
         width: auto;
     }
@@ -843,6 +845,7 @@
     }
 
     .footer__logo {
+        width: 230px;
         align-items: center;
     }
 
@@ -853,7 +856,7 @@
     }
 
     .footer_wrap {
-        width: 540px;
+        width: 650px;
     }
 
     .footer_logo-class {
@@ -865,16 +868,18 @@
     }
 
     .footer_box {
+        width: 600px;
         margin-bottom: 0px;
     }
 
     .title_footer {
+        font-size: 30px;
         color: #f6ff00;
         text-align: center;
     }
 
     .wrap__box p {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .list_footer_item {
