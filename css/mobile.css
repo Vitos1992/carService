@@ -70,7 +70,8 @@
     /* items */
 
     .items {
-        padding-bottom: 80px;
+        padding-bottom: 40px;
+        padding-top: 90px;
         min-height: auto;
         margin-bottom: 20px;
 
@@ -294,11 +295,11 @@
 
 /* table */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
 
     .container {
         min-width: 768px;
-        padding: 0;
+        padding: 15px;
         margin: auto;
     }
 
@@ -363,6 +364,7 @@
         margin-bottom: 0px;
     }
 
+
     .img__item {
         display: block;
     }
@@ -375,17 +377,18 @@
     }
 
     .titile_name {
-        font-size: 24px;
+        font-size: 22px;
     }
     .span_color {
-        font-size: 24px;
+        font-size: 22px;
         text-align: center;
     }
 
     /*----------------------- about */
 
     .cont_about img {
-        max-width: 550px;
+        max-width: 500px;
+        max-height: 600px;
     }
 
     .cont_about {
@@ -393,10 +396,6 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-    }
-
-    .text__about {
-        max-width: 400px;
     }
 
     .text__about p {
@@ -598,7 +597,8 @@
 @media screen and (min-width: 1200px) {
 
     .container {
-        width: 1200px;
+        padding: 0;
+        width: 1280px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -665,6 +665,11 @@
         margin-bottom: 0px;
     }
 
+    .cont_wrap img {
+        width: 500px;
+        height: 400px;
+    }
+
     .img__item {
         display: block;
     }
@@ -677,10 +682,10 @@
     }
 
     .titile_name {
-        font-size: 36px;
+        font-size: 38px;
     }
     .span_color {
-        font-size: 36px;
+        font-size: 38px;
         text-align: center;
     }
 
