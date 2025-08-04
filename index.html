@@ -22,15 +22,16 @@
         <div class="container head_box">
 
             <div class="burger_menu">
-                <button class="burger_btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
 
                 <a href="./index.html" class="logo_head">
                     <img src="./images/logo.png" alt="logo" width="154" height="144" />
                 </a>
+
+                <button type="button" class="burger_btn" data-menu-open>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
 
             <nav class="nav_header">
@@ -62,9 +63,73 @@
                 </ul>
             </address>
         </div>
+
+        <!------------------------ mob_menu -------------------------------->
+
+        <div class="header_mob-soc_menu is-hidden" data-menu>
+            <nav class="nav_header__mob">
+
+                <ul class="list_nav__mob">
+                    <li class="list list_item__mob">
+                        <a class="nav_item__mob" href="#ПРО НАС">ПРО НАС</a>
+                    </li>
+                    <li class="list list_item__mob">
+                        <a class="nav_item__mob" href="#СПИСОК ПОСЛУГ">СПИСОК ПОСЛУГ</a>
+                    </li>
+                    <li class="list list_item__mob">
+                        <a class="nav_item__mob" href="#НАШІ ПЕРЕВАГИ">НАШІ ПЕРЕВАГИ</a>
+                    </li>
+                    <li class="list list_item__mob">
+                        <a class="nav_item__mob" href="#ЯК НАС ЗНАЙТИ">ЯК НАС ЗНАЙТИ</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <address class="address_head__mob">
+                <ul class="address_list__mob">
+                    <li class="tel_head__mob list">
+                        <a class="phone__mob" href="tel:+380506732052">+38 050 673 2052</a>
+                    </li>
+                    <li class="tel_head__mob list">
+                        <a class="phone__mob" href="tel:+380964884484">+38 096 488 4484</a>
+                    </li>
+                </ul>
+            </address>
+
+            <!------------------------- mob__soc -->
+
+            <div class="footer_nav">
+                    <ul class="list_mob_item">
+                        <li class="list list_mob_soc">
+                            <a href="" class="soc_item_mob">
+                                <svg width="50" height="50">
+                                    <use href="./images/nav.svg#icon-instagram" class="soc_item_inst"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="list list_mob_soc">
+                            <a href="" class="soc_item_mob">
+                                <svg width="50" height="50">
+                                    <use href="./images/nav.svg#icon-whatsapp" class="soc_item_whats"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="list list_mob_soc">
+                            <a href="" class="soc_item_mob">
+                                <svg width="50" height="50">
+                                    <use href="./images/nav.svg#icon-telegram" class="soc_item_teleg"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+        </div>
+
     </header>
 
-    <!------------------------ mob_menu -------------------------------->
+    
 
     <!-- -----------main------------- -->
 
@@ -119,6 +184,7 @@
 
 
                 <div class="container">
+
                     <!-- <div class="slider__box">
                         <img src="./images/about/photo3.jpg" alt="">
                         <img src="./images/about/photo4.jpg" alt="">
@@ -206,14 +272,14 @@
 
         <!-------------------- blok------------- -->
 
-        <!-- <div class="blok">
+        <div class="blok">
             <p class='text__blok'>index.html</p>
             <p class='text__blok1'>МИ ЦІНУЄМО КОЖНОГО КЛІЄНТА!</p>
-        </div> -->
+        </div>
 
         <!---------------------------------- container_services -->
 
-        <!-- <section class="container_services">
+        <section class="container_services">
             <div class="container">
                 <h2 class="title_main" id="СПИСОК ПОСЛУГ">СПИСОК ПОСЛУГ</h2>
                 <ul class="cont_servise">
@@ -261,16 +327,11 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
-
-        <section>
-
-
         </section>
 
         <!-- -------------------cont_advantages -->
 
-        <!-- <section class="container_advantages">
+        <section class="container_advantages">
             <div class="container">
                 <h2 class="title_main" id="НАШІ ПЕРЕВАГИ">НАШІ ПЕРЕВАГИ</h2>
                 <ul class="cont_advantages">
@@ -311,11 +372,11 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
         <!------------------------------------ find -->
 
-        <!-- <section class="find">
+        <section class="find">
             <div class="container">
                 <div class="box_find">
                     <div class="cont_find">
@@ -381,12 +442,12 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <!------------------------------------- footer -->
 
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container cont__footer">
             <div class="soc_nav_foot">
                 <div class="footer__logo">
@@ -395,24 +456,24 @@
                 </div>
 
                 <div class="footer_nav">
-                    <ul class="list_footer_item">
-                        <li class="list list_footer">
+                    <ul class="list_mob_item">
+                        <li class="list list_mob_soc">
                             <a href="" class="soc_item">
-                                <svg width="34" height="34">
+                                <svg width="50" height="50">
                                     <use href="./images/nav.svg#icon-instagram" class="soc_item_inst"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="list list_footer">
+                        <li class="list list_mob_soc">
                             <a href="" class="soc_item">
-                                <svg width="34" height="34">
+                                <svg width="50" height="50">
                                     <use href="./images/nav.svg#icon-whatsapp" class="soc_item_whats"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="list list_footer">
+                        <li class="list list_mob_soc">
                             <a href="" class="soc_item">
-                                <svg width="34" height="34">
+                                <svg width="50" height="50">
                                     <use href="./images/nav.svg#icon-telegram" class="soc_item_teleg"></use>
                                 </svg>
                             </a>
@@ -459,7 +520,7 @@
 
 
         </div>
-    </footer> -->
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./js/slick.min.js "></script>
