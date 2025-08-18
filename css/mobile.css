@@ -65,19 +65,26 @@
         height: 3px;
         background-color: #f6ff00;
         left: 5px;
+        transition: transform .5s, opasity .5s, background-color .5s;
     }
 
     .burger_btn span:nth-child(1) {
         transform: translateY(-10px);
     }
 
-    .header.is-hidden .burger_btn span:nth-child(2) {
-        opacity: 0;
-    }
-
     .burger_btn span:nth-child(3) {
         transform: translateY(10px);
     }
+
+    .header_mob-soc_menu.is-hidden .burger_btn span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header_mob-soc_menu.is-hidden .burger_btn span:nth-child(3) {
+        transform: translateY(0);
+    }
+
+    
 
     .list_nav__mob {
         display: flex;
