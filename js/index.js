@@ -37,6 +37,8 @@ $(document).ready(function () {
   });
 });
 
+// mob_menu
+
 const d = document.querySelector("[data-menu]"),
   y = document.querySelector("[data-menu-open]"),
   a = document.querySelector("body"),
@@ -51,3 +53,5 @@ g.forEach((o) => o.addEventListener("click", s));
 window.matchMedia("(min-width: 768px)").addEventListener("change", (o) => {
   o.matches && (d.classList.add("is-hidden"), a.classList.remove("body"));
 });
+
+
