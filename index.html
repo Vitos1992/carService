@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27,11 +27,78 @@
                     <img src="./images/logo.png" alt="logo" width="154" height="144" />
                 </a>
 
-                <button type="button" class="burger_btn" id="burger">
+                <button type="button" class="burger_btn" data-menu-open>
                     <span></span>
                     <span></span>
                     <span></span>
                 </button>
+
+                
+
+                <div class="header_mob-soc_menu is-hidden" data-menu>
+
+                    <button type="button" class="burger_btn_close" data-menu-close>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <nav class="nav_header__mob">
+                        <ul class="list_nav__mob">
+                            <li class="list list_item__mob">
+                                <a class="nav_item__mob" href="#ПРО НАС">ПРО НАС</a>
+                            </li>
+                            <li class="list list_item__mob">
+                                <a class="nav_item__mob" href="#СПИСОК ПОСЛУГ">СПИСОК ПОСЛУГ</a>
+                            </li>
+                            <li class="list list_item__mob">
+                                <a class="nav_item__mob" href="#НАШІ ПЕРЕВАГИ">НАШІ ПЕРЕВАГИ</a>
+                            </li>
+                            <li class="list list_item__mob">
+                                <a class="nav_item__mob" href="#ЯК НАС ЗНАЙТИ">ЯК НАС ЗНАЙТИ</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <address class="address_head__mob">
+                        <ul class="address_list__mob">
+                            <li class="tel_head__mob list">
+                                <a class="phone__mob" href="tel:+380506732052">+38 050 673 2052</a>
+                            </li>
+                            <li class="tel_head__mob list">
+                                <a class="phone__mob" href="tel:+380964884484">+38 096 488 4484</a>
+                            </li>
+                        </ul>
+                    </address>
+
+                    <!------------------------- mob__soc -->
+
+                    <div class="footer_nav">
+                        <ul class="list_mob_item">
+                            <li class="list list_mob_soc">
+                                <a href="" class="soc_item_mob">
+                                    <svg width="50" height="50">
+                                        <use href="./images/nav.svg#icon-instagram" class="soc_item_inst"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list list_mob_soc">
+                                <a href="" class="soc_item_mob">
+                                    <svg width="50" height="50">
+                                        <use href="./images/nav.svg#icon-whatsapp" class="soc_item_whats"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list list_mob_soc">
+                                <a href="" class="soc_item_mob">
+                                    <svg width="50" height="50">
+                                        <use href="./images/nav.svg#icon-telegram" class="soc_item_teleg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <nav class="nav_header">
@@ -66,70 +133,11 @@
 
         <!------------------------ mob_menu -------------------------------->
 
-        <div class="header_mob-soc_menu is-hidden">
-            <nav class="nav_header__mob">
 
-                <ul class="list_nav__mob">
-                    <li class="list list_item__mob">
-                        <a class="nav_item__mob" href="#ПРО НАС">ПРО НАС</a>
-                    </li>
-                    <li class="list list_item__mob">
-                        <a class="nav_item__mob" href="#СПИСОК ПОСЛУГ">СПИСОК ПОСЛУГ</a>
-                    </li>
-                    <li class="list list_item__mob">
-                        <a class="nav_item__mob" href="#НАШІ ПЕРЕВАГИ">НАШІ ПЕРЕВАГИ</a>
-                    </li>
-                    <li class="list list_item__mob">
-                        <a class="nav_item__mob" href="#ЯК НАС ЗНАЙТИ">ЯК НАС ЗНАЙТИ</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <address class="address_head__mob">
-                <ul class="address_list__mob">
-                    <li class="tel_head__mob list">
-                        <a class="phone__mob" href="tel:+380506732052">+38 050 673 2052</a>
-                    </li>
-                    <li class="tel_head__mob list">
-                        <a class="phone__mob" href="tel:+380964884484">+38 096 488 4484</a>
-                    </li>
-                </ul>
-            </address>
-
-            <!------------------------- mob__soc -->
-
-            <div class="footer_nav">
-                    <ul class="list_mob_item">
-                        <li class="list list_mob_soc">
-                            <a href="" class="soc_item_mob">
-                                <svg width="50" height="50">
-                                    <use href="./images/nav.svg#icon-instagram" class="soc_item_inst"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="list list_mob_soc">
-                            <a href="" class="soc_item_mob">
-                                <svg width="50" height="50">
-                                    <use href="./images/nav.svg#icon-whatsapp" class="soc_item_whats"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="list list_mob_soc">
-                            <a href="" class="soc_item_mob">
-                                <svg width="50" height="50">
-                                    <use href="./images/nav.svg#icon-telegram" class="soc_item_teleg"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-
-        </div>
 
     </header>
 
-    
+
 
     <!-- -----------main------------- -->
 

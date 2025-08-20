@@ -34,6 +34,7 @@
         background-color: #f4f4fd;
         width: 100vw;
         height: 100%;
+        padding: 17px 0px;
     }
 
     .is-hidden {
@@ -50,13 +51,14 @@
     }
 
     .burger_btn {
+        display: block;
         position: relative;
         width: 40px;
         height: 40px;
         border: none;
         background-color: #404BBF;
         border-radius: 5px;
-        z-index: 2;
+        z-index: 1;
     }
 
     .burger_btn span {
@@ -76,13 +78,38 @@
         transform: translateY(10px);
     }
 
-    .header_mob-soc_menu.is-hidden .burger_btn span:nth-child(2) {
+    .burger_btn_close {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: #404BBF;
+        border-radius: 5px;
+        z-index: 2;
+        margin-left: 79%;
+    }
+
+    .burger_btn_close span {
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background-color: #f6ff00;
+        left: 5px;
+        
+    }
+
+    .burger_btn_close span:nth-child(1) {
+        transform: translateY(0) rotate(45deg);
+    }
+
+    .burger_btn_close span:nth-child(2) {
         opacity: 0;
     }
 
-    .header_mob-soc_menu.is-hidden .burger_btn span:nth-child(3) {
-        transform: translateY(0);
+    .burger_btn_close span:nth-child(3) {
+        transform: translateY(0) rotate(-45deg);
     }
+
 
     
 
@@ -92,7 +119,7 @@
         align-items: center;
         flex-direction: column;
         margin-bottom: 30px;
-        margin-top: 80px;
+        margin-top: 55px;
     }
 
     .list_item__mob {
