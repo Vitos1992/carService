@@ -193,15 +193,9 @@ img {
     color: #414141;
 
     filter: drop-shadow(0px 0px 12px grey);
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
 }
 
-.titile_name._active {
-    transform: translate(0px, 0px);
-    opacity: 1;
-}
+
 
 .span_color {
     background: linear-gradient(45deg, #4d5ae5, rgb(111, 29, 178), rgb(17, 52, 52));
@@ -211,16 +205,9 @@ img {
     font-weight: 700;
 
     filter: drop-shadow(0px 0px 12px grey);
-
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
 }
 
-.span_color._active {
-    transform: translate(0px, 0px);
-    opacity: 1;
-}
+
 
 /*------------------------ about */
 
