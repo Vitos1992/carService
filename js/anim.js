@@ -24,6 +24,7 @@ if (animItems.length > 0) {
 
     }
   }
+
   function offset(el) {
     const rect = el.getBoundingClientRect(),
       scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
@@ -32,7 +33,11 @@ if (animItems.length > 0) {
   }
 
   setTimeout(() => {
-    animOnScroll();
+    animOnScroll(); 
   }, 300);
+
+  
+
   
 }
+
