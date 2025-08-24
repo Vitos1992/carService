@@ -857,31 +857,16 @@
 
     .titile_name {
         font-size: 38px;
-
-        transform: translate(0px, 120%);
-        opacity: 0;
-        transition: all 0.8s ease 0s;
     }
 
-    .titile_name._active {
-        transform: translate(0px, 0px);
-        opacity: 1;
-    }
+    
 
     .span_color {
         font-size: 38px;
         text-align: center;
-
-        transform: translate(0px, 120%);
-        opacity: 0;
-        transition: all 0.8s ease 0s;
-        
     }
 
-    .span_color ._active {
-        transform: translate(0px, 0px);
-        opacity: 1;
-    }
+    
 
     /*----------------------- about */
 

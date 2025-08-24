@@ -179,6 +179,18 @@ img {
     justify-content: space-evenly;
 }
 
+.img__item {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+
+}
+
+.img__item ._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
 .box_name {
     display: flex;
     flex-direction: column;
@@ -193,9 +205,16 @@ img {
     color: #414141;
 
     filter: drop-shadow(0px 0px 12px grey);
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }
 
-
+.titile_name._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
 
 .span_color {
     background: linear-gradient(45deg, #4d5ae5, rgb(111, 29, 178), rgb(17, 52, 52));
@@ -205,6 +224,15 @@ img {
     font-weight: 700;
 
     filter: drop-shadow(0px 0px 12px grey);
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+
+.span_color._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 
@@ -216,6 +244,7 @@ img {
 }
 
 .cont_about {
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,6 +262,19 @@ img {
     text-align: justify;
     margin-bottom: 12px;
 }
+
+._anim__show {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+._anim__show._active,
+._active ._anin__show {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
 /* --------------------slider */
 
 .slider {
@@ -395,6 +437,15 @@ img {
     text-align: center;
     margin-bottom: 10px;
     font-size: 22px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.title_service._active {
+    opacity: 1;
+    transform: translate(0px, 0px);
 }
 
 .box_service_text {
@@ -414,6 +465,15 @@ img {
     color: #040409;
     letter-spacing: 0.02em;
     line-height: 1.2;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+
+.box_service_text p._active {
+    opacity: 1;
+    transform: translate(0px, 0px);
 }
 
 /*--------------------- cont_advantages */
@@ -448,7 +508,16 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }
+
+.title__adv._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+} 
 
 .advantages__list img {
     max-width: 400px;
@@ -464,6 +533,15 @@ img {
     text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+
+.advantages__list p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 
@@ -565,6 +643,15 @@ img {
     letter-spacing: 0.03em;
     margin-bottom: 10px;
 
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.5s;
+
+}
+
+.find__nav p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .phone_find {
@@ -574,7 +661,15 @@ img {
     border-radius: 4px;
     transition: 0.5s;
     margin-bottom: 8px;
-    
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s; 
+}
+
+.phone_find._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .phone_find:hover {
@@ -591,6 +686,15 @@ img {
     font-weight: 500;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+
+.text__find1._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 /*---------------------- footer */
@@ -618,7 +722,25 @@ img {
     line-height: 1.2;
     letter-spacing: 0.05em;
 
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
 
+.footer__logo p._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.anim-logo {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
+}
+
+.anim-logo._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 
@@ -639,6 +761,15 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.05em;
+
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.title_footer._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .wrap__box svg {
@@ -667,6 +798,17 @@ img {
     text-align: center;
     width: 50px;
     height: 50px;
+}
+
+.list_mob_soc {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0.6s;
+}
+
+.list_mob_soc._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .soc_item {
