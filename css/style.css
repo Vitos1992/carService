@@ -240,6 +240,13 @@ img {
     margin-bottom: 40px;
 }
 
+.text__about {
+    background-color: #f4f4fd;
+    border: 2px solid #404BBF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 
 .text__about p {
     color: #040409;
@@ -258,7 +265,7 @@ img {
 }
 
 ._anim__show._active,
-._active ._anin__show {
+._active ._anim__show {
     opacity: 1;
     transform: translate(0px, 0px);
 }
