@@ -179,18 +179,6 @@ img {
     justify-content: space-evenly;
 }
 
-.img__item {
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-
-}
-
-.img__item ._active {
-    transform: translate(0px, 0px);
-    opacity: 1;
-}
-
 .box_name {
     display: flex;
     flex-direction: column;
@@ -462,7 +450,7 @@ img {
     font-family: "Montserrat";
     text-align: center;
     font-size: 16px;
-    color: #040409;
+    color: #404BBF;
     letter-spacing: 0.02em;
     line-height: 1.2;
 
@@ -533,6 +521,7 @@ img {
     text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #404BBF;
 
     transform: translate(0px, 120%);
     opacity: 0;
@@ -655,12 +644,12 @@ img {
 }
 
 .phone_find {
-    color: black;
+    color: #000453;
     font-size: 20px;
     text-decoration: none;
     border-radius: 4px;
     transition: 0.5s;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 
     transform: translate(0px, 120%);
     opacity: 0;
@@ -695,6 +684,10 @@ img {
 .text__find1._active {
     transform: translate(0px, 0px);
     opacity: 1;
+}
+
+.find_span {
+    color: #4d5ae5;
 }
 
 /*---------------------- footer */
