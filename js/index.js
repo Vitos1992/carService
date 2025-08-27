@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".slider").slick({
     dots: true,
     adaptiveHeight: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 2,
     speed: 1000,
     easing: "_lianer",
@@ -14,26 +14,26 @@ $(document).ready(function () {
     pauseOnFocusHoverDots: true,
     draggable: false,
     waitForAnimate: false,
-    responsive: [
+    responsive:[
       {
-        breakpoint: 480,
+        breakpoint: 320,
         settings: {
-          slidesToShow: 1,
-        },
+          slidesToShow: 1
+        }
       },
       {
-        breakpoint: 768,
+        breakpoint: 850,
         settings: {
-          slidesToShow: 3,
-        },
+          slidesToShow: 3
+        }
       },
       {
-        breakpoint: 1158,
+        breakpoint: 1300,
         settings: {
-          slidesToShow: 5,
-        },
-      },
-    ],
+          slidesToShow: 5
+        }
+      }
+    ]
   });
 });
 
